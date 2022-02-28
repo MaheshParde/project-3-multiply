@@ -12,7 +12,11 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-
+    <dependency>     
+             <groupId>com.apple</groupId>     
+                  <artifactId>AppleJavaExtensions</artifactId>     
+             <version>1.4</version>     
+    </dependency>
     <build>
         <plugins>
             <plugin>
